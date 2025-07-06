@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pratyush Kumar Portfolio</title>
+
+    <link rel="shortcut icon" href="./images/icon-sign.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./images/portrait.jpg"
+              alt="Pratyush Kumar"
+              width="80"
+              style="border-radius: 50%"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Pratyush Kumar">Pratyush Kumar</h1>
+
+            <p class="title">CS Undergraduate at NIT Patna</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>More Details</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+          <div style="margin-top: 1.5rem">
+            <button class="download-resume-btn">
+              <div class="blob1"></div>
+              <div class="blob2"></div>
+              <a href="./Resume.pdf" class="large"
+                ><div class="inner">DOWNLOAD RESUME</div></a
+              >
+            </button>
+          </div>
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div
+                class="icon-box"
+                onclick="window.location.href='mailto:pratyushsharma978@gmail.com'"
+              >
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:pratyushsharma978@gmail.com" class="contact-link"
+                  >pratyushsharma978@gmail.com</a
+                >
+              </div>
+            </li>
+
+
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="2005-05-16">March 07, 2007</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Patna, India</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/pratyush-kumar9v8/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://github.com/Pratyushkumar9v8" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.instagram.com/pratyush_sharma9/"
+                class="social-link"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.facebook.com/pratyush.sunny.9"
+                class="social-link"
+              >
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+          </ul>
+          <br>
+          <p>© 2025 pratyush.rest </p>
+          <p>All rights reserved.</p>
+        </div>
+      </aside>
+
+      <div class="main-content">
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I'm a Full Stack Developer and AI/ML enthusiast based in
+              Patna, India, passionate about building scalable systems and
+              intelligent applications. I thrive on transforming data into
+              insights and ideas into functional, performant products.
+            </p>
+
+            <p>
+              My focus is on developing end-to-end solutions that are not only
+              efficient and cleanly coded but also intuitive and impactful.
+              Whether it's crafting a responsive MERN stack application or
+              training a deep learning model, I blend engineering precision with
+              creative problem-solving. My goal is to create systems that solve
+              real-world problems and offer seamless user experiences across
+              platforms.
+            </p>
+          </section>
+
+          <section class="service">
+            <h3 class="h3 service-title">What I'm Doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Full Stack Development</h4>
+
+                  <p class="service-item-text">
+                    Building scalable and responsive MERN applications with
+                    clean architecture and modern UI/UX.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./images/icon-ai.png" alt="AI icon" width="40" />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">AI & Machine Learning</h4>
+
+                  <p class="service-item-text">
+                    Designing intelligent systems using deep learning, computer
+                    vision, and NLP to solve real-world problems.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./images/icon-data.png"
+                    alt="Data analysis icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Data Science & Analysis</h4>
+
+                  <p class="service-item-text">
+                    Turning raw data into actionable insights using Python,
+                    Pandas, and advanced statistical methods.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./images/icon-leadership.png"
+                    alt="Leadership icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Leadership & Coordination
+                  </h4>
+
+                  <p class="service-item-text">
+                    Leading placement efforts and collaborating with industry
+                    for student opportunities and streamlined execution.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <section>
+            <div class="quote-section">
+              <figure class="quote-icon">
+                <img src="./images/icon-quote.svg" alt="Quote Icon" />
+              </figure>
+              <blockquote class="quote-text">
+                <h3 class="h3 article-title">
+                  Build with clarity, learn with intent, scale with
+                  intelligence.
+                </h3>
+              </blockquote>
+            </div>
+          </section>
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img src="" data-modal-img />
+                </figure>
+              </div>
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title></h4>
+
+                <div data-modal-text></div>
+              </div>
+            </section>
+          </div>
+        </article>
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+         
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <div
+                  class="timeline-header"
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    position: relative;
+                  "
+                >
+                  <h4 class="h4 timeline-item-title" style="margin: 0">
+                    National Institute of Technology Patna (NITP), Patna
+                  </h4>
+                  <img 
+                    src="./images/icon-nitp.png"
+                    alt="icon-NITP "
+                    class="responsive-img"
+                  />
+                </div>
+
+                <span>2024 - Present</span>
+                <p class="timeline-text">
+                  Pursuing B.Tech. in Computer Science and Engineering with a CGPA
+                  of <b>8.8+</b>.<br />
+                  Gained strong foundations in Data Structures & Algorithms,
+                  DBMS, Operating Systems, Computer Networks, and Compiler
+                  Design.<br />
+                  Developed hands-on skills in Full Stack Development, AI/ML,
+                  and Data Science through academic and industry projects.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <div
+                  class="timeline-header"
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                  "
+                >
+                  <h4 class="h4 timeline-item-title" style="margin: 0">
+                    S.R. Public School, Patna 
+                  </h4>
+                  <img
+                    src="./images/icon-school.svg"
+                    alt="School Icon"
+                    style="border-radius: 50%"
+                    class="responsive-img"
+                  />
+                </div>
+                <span>2022 - 2024</span>
+                <p class="timeline-text">
+                  Completed Intermediate with a percentage of <b>78.8%.</b
+                  ><br />
+                  Built a strong grounding in Mathematics, Physics, and
+                  Chemistry, forming a logical and analytical foundation
+                  essential for engineering problem-solving.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <div
+                  class="timeline-header"
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                  "
+                >
+                  <h4 class="h4 timeline-item-title" style="margin: 0">
+                    S.R. Public School, Patna 
+
+                  </h4>
+                  <img
+                    src="./images/icon-school.svg"
+                    alt="School Icon"
+                    style="border-radius: 50%"
+                    class="responsive-img"
+                  />
+                </div>
+                <span>— 2022</span>
+                <p class="timeline-text">
+                  Completed 10th Grade with a perfect CGPA of <b>10.0 .</b
+                  ><br />
+                  Developed curiosity in programming and general science, laying
+                  the groundwork for a future in computer science.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My Skills</h3>
+
+            <ul class="skills-list content-card">
+              <li
+                class="skills-item"
+                style="display: flex; align-items: flex-start; gap: 1rem"
+              >
+                <div class="icon-box">
+                  <img src="/images/icon-python.png" alt="" srcset="" />
+                </div>
+                <div style="flex: 1">
+                  <div
+                    class="title-wrapper"
+                    style="display: flex; justify-content: space-between"
+                  >
+                    <h5 class="h5">Python</h5>
+                    <data value="50">50%</data>
+                  </div>
+                  <div class="skill-progress-bg" style="width: 100%">
+                    <div class="skill-progress-fill" style="width: 50%"></div>
+                  </div>
+                </div>
+              </li>
+
+              <li
+                class="skills-item"
+                style="display: flex; align-items: flex-start; gap: 1rem"
+              >
+                <div class="icon-box">
+                  <img src="/images/icon-cpp.png" alt="" srcset="" />
+                </div>
+                <div style="flex: 1">
+                  <div
+                    class="title-wrapper"
+                    style="display: flex; justify-content: space-between"
+                  >
+                    <h5 class="h5">c++</h5>
+                    <data value="70">70%</data>
+                  </div>
+                  <div class="skill-progress-bg" style="width: 100%">
+                    <div class="skill-progress-fill" style="width: 70%"></div>
+                  </div>
+                </div>
+              </li>
+
+              <li
+                class="skills-item"
+                style="display: flex; align-items: flex-start; gap: 1rem"
+              >
+                <div class="icon-box">
+                  <img src="/images/icon-dsa.png" alt="" srcset="" />
+                </div>
+                <div style="flex: 1">
+                  <div
+                    class="title-wrapper"
+                    style="display: flex; justify-content: space-between"
+                  >
+                    <h5 class="h5">DSA</h5>
+                    <data value="70">70%</data>
+                  </div>
+                  <div class="skill-progress-bg" style="width: 100%">
+                    <div class="skill-progress-fill" style="width: 70%"></div>
+                  </div>
+                </div>
+              </li>
+
+              <li
+                class="skills-item"
+                style="display: flex; align-items: flex-start; gap: 1rem"
+              >
+                <div class="icon-box">
+                  <img src="/images/icon-dev.svg" alt="" srcset="" />
+                </div>
+                <div style="flex: 1">
+                  <div
+                    class="title-wrapper"
+                    style="display: flex; justify-content: space-between"
+                  >
+                    <h5 class="h5">Full Stack (MERN)</h5>
+                    <data value="75">75%</data>
+                  </div>
+                  <div class="skill-progress-bg" style="width: 100%">
+                    <div class="skill-progress-fill" style="width: 75%"></div>
+                  </div>
+                </div>
+              </li>
+
+              <li
+                class="skills-item"
+                style="display: flex; align-items: flex-start; gap: 1rem"
+              >
+                <div class="icon-box">
+                  <img src="/images/icon-ai.png" alt="" srcset="" />
+                </div>
+                <div style="flex: 1">
+                  <div
+                    class="title-wrapper"
+                    style="display: flex; justify-content: space-between"
+                  >
+                    <h5 class="h5">AI & ML</h5>
+                    <data value="40">40%</data>
+                  </div>
+                  <div class="skill-progress-bg" style="width: 100%">
+                    <div class="skill-progress-fill" style="width: 40%"></div>
+                  </div>
+                </div>
+              </li>
+
+              <!-- <li
+                class="skills-item"
+                style="display: flex; align-items: flex-start; gap: 1rem"
+              >
+                <div class="icon-box">
+                  <img src="./images/icon-data.png" alt="" srcset="" />
+                </div>
+                <div style="flex: 1">
+                  <div
+                    class="title-wrapper"
+                    style="display: flex; justify-content: space-between"
+                  >
+                    <h5 class="h5">Data Science</h5>
+                    <data value="75">75%</data>
+                  </div>
+                  <div class="skill-progress-bg" style="width: 100%">
+                    <div class="skill-progress-fill" style="width: 75%"></div>
+                  </div>
+                </div>
+              </li> -->
+
+              <li
+                class="skills-item"
+                style="display: flex; align-items: flex-start; gap: 1rem"
+              >
+                <div class="icon-box">
+                  <img src="/images/icon-database.png" alt="" srcset="" />
+                </div>
+                <div style="flex: 1">
+                  <div
+                    class="title-wrapper"
+                    style="display: flex; justify-content: space-between"
+                  >
+                    <h5 class="h5">MongoDB & MySQL</h5>
+                    <data value="60">60%</data>
+                  </div>
+                  <div class="skill-progress-bg" style="width: 100%">
+                    <div class="skill-progress-fill" style="width: 60%"></div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <div class="">
+              <button class="" data-select></button>
+            </div>
+
+            <ul class="project-list">
+
+              <li class="project-item active">
+                <a
+                  href="https://wanderlust.pratyush.rest/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="/images/icon-wand.png"
+                      alt="WanderLust Travel App"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">WanderLust Travel App</h3>
+                  <p class="project-category">Full Stack Development</p>
+                </a>
+              </li>
+
+
+            </ul>
+          </section>
+        </article>
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form id="contact-form">
+              <div class="input-wrapper">
+                <input
+                  id="fullname"
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  id="email"
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                id="message"
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <a href="mailto:pratyushsharma978@gmail.com" class="send-message"
+                  >Send Message</a
+                >
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <script src="./script.js"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
